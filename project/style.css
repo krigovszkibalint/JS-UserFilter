@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+/*#region scrollbar*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+      border-radius: 10px;
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+    background: rgb(190, 190, 190); 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(161, 161, 161); 
+}
+/*#endregion scrollbar*/
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(-225deg, #2CD8D5 0%, #6B8DD6 48%, #8E37D7 100%);    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    font-family: 'Comfortaa';
+}
+.header {
+    color: white;
+    padding: 30px 20px;
+    background-color: #7c37d7;
+}
+.header input {
+    width: 100%;
+    border-radius: 5px;
+    height: 24px;
+    font-size: 16px;
+    border: 0;
+    color: black;
+    padding: 10px 15px;
+}
+.header input:focus {
+    outline: none;
+}
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+}
+.title {
+    margin: 0;
+}
+.subtitle {
+    font-size: 14px;
+    font-weight: 300;
+    display: inline-block;
+    margin: 5px 0 20px;
+    opacity: 0.8;
+}
